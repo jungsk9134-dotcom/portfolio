@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="포트폴리오.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Hello and Welcome!</h1>
+    <button onclick="scrollToSection('#about')">ABOUT ME</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <h2>#1 A Little About Me</h2>
+  <div class="about-wrap">
+    <div class="about-img">
+      <img src="img/Gemini_Generated_Image_bud3ibbud3ibbud3.png" alt="">
+    </div>
+    <div class="about-text">
+      <p>
+        저는 읽고, 보고, 만들며 시간을 보내는 것을 좋아합니다.
+        책과 영화, 공연에서 받은 감정을 오래 간직하는 편입니다.
+      </p>
+
+      <div class="skill">
+        <p>Reading 90%</p>
+        <div class="bar"><span style="width:90%"></span></div>
+      </div>
+
+      <div class="skill">
+        <p>Film 85%</p>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+
+      <div class="skill">
+        <p>Performance 80%</p>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill">
+        <p>Handmade 75%</p>
+        <div class="bar"><span style="width:75%"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section skills">
+  <h2>#2 Some Of My Interests</h2>
+
+  <div class="skill-icons">
+
+  <div class="item">
+    <div class="icon-circle reading">📚</div>
+    <p>Reading</p>
+    <div class="detail">책을 통해 다양한 이야기를 접하고 기록하는 것을 좋아합니다.</div>
+  </div>
+
+  <div class="item">
+    <div class="icon-circle film">🎬</div>
+    <p>Film</p>
+    <div class="detail">여운이 남는 영화와 감성적인 연출을 선호합니다.</div>
+  </div>
+
+  <div class="item">
+    <div class="icon-circle performance">🎭</div>
+    <p>Performance</p>
+    <div class="detail">공연장에서 느껴지는 생생한 감정을 좋아합니다.</div>
+  </div>
+
+  <div class="item">
+    <div class="icon-circle handmade">✋</div>
+    <p>Handmade</p>
+    <div class="detail">손으로 무언가를 만드는 과정 자체를 즐깁니다.</div>
+  </div>
+
+</div>
+</section>
+
+<!-- WORK -->
+<section class="section work">
+  <h2>#3 My Archive</h2>
+ <div class="slider-wrap">
+  <button class="prev">‹</button>
+  <div class="slider">
+
+   
+
+    <div class="slides">
+      <div class="slide"><img src="img/KakaoTalk_20260408_162539112.png" /></div>
+      <div class="slide"><img src="img/KakaoTalk_20260408_162539112_02.gif" /></div>
+      <div class="slide"><img src="img/KakaoTalk_20260408_162539112_01.png" /></div>
+      <div class="slide"><img src="img/KakaoTalk_20260408_162539112_03.png" /></div>
+      <div class="slide"><video src="img/네온사인_수정1차.mp4" autoplay muted loop playsinline></video></div>
+      <div class="slide"><img src="img/KakaoTalk_20260408_162539112_04.png" /></div>
+      <div class="slide"><img src="img/KakaoTalk_20260408_162539112_05.png" /></div>
+      <div class="slide"><video src="img/네온사인잽오_01_1.mp4" autoplay muted loop playsinline></video></div>
+      <div class="slide"><video src="img/감바스_최종.mp4" autoplay muted loop playsinline></video></div>
+      <div class="slide"><video src="img/최종시퀀스.mp4" autoplay muted loop playsinline></video></div>
+    </div>
+      </div>
+       <button class="next">›</button>
+ </div>
+    </section>
+
+<!-- CONTACT -->
+<section class="section contact">
+  <div class="contact-inner">
+    <p class="num">#4</p>
+    <h2>Get In Touch</h2>
+
+    <div class="divider"></div>
+
+    <p class="desc">
+      There were one or two cartloads of people. We went out to look, 
+      and there were clouds of smoke to the south.
+    </p>
+
+    <div class="icons">
+      <div class="circle">Be</div>
+      <div class="circle">🌐</div>
+      <div class="circle">f</div>
+      <div class="circle">P</div>
+      <div class="circle">t</div>
+      <div class="circle">☁</div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <p>Firmly aiming for the ⭐ is always a good idea.</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img id="modal-img">
+    <video id="modal-video" controls></video>
+  </div>
+</div>
+
+<script src="포트폴리오.js"></script>
+</body>
+</html>
